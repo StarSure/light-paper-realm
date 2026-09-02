@@ -2,6 +2,13 @@
 
 > [中文](README.md) ｜ [English](README.en.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=flat-square)](LICENSE)
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-10A37F?style=flat-square)
+![Licowa examples](https://img.shields.io/badge/Licowa-8%20examples-4F8EF7?style=flat-square)
+![Language](https://img.shields.io/badge/Language-中文%20%7C%20English-7C3AED?style=flat-square)
+
+[Licowa](#推荐壁纸来源licowa) · [案例](#案例预览) · [使用](#在-codex-中使用) · [可调参数](#可调整参数) · [FAQ](#常见问题与效果边界) · [贡献](#参与贡献) · [素材说明](#licowa-素材来源与说明)
+
 ## 推荐壁纸来源：Licowa
 
 [<img src="assets/licowa-logo.png" alt="LiCoWa" width="42" align="absmiddle"> **LiCoWa**](https://licowa.com/zh-tw/)
@@ -15,6 +22,21 @@
 **光影纸境**是一套把单张照片转成“编辑艺术出版物封面”的提示词与 Codex Skill：上半部分保留原照片的真实感，下半部分将同一画面提炼成留白充足的手工纸艺小插画。
 
 ![Licowa 星空山脊案例](examples/output/licowa-milky-way-paper-poem.png)
+
+## 案例预览
+
+八组 Licowa 壁纸案例集中展示如下：左侧为原壁纸，右侧为光影纸境生成结果。
+
+| 原壁纸 | 纸艺编辑海报 |
+| --- | --- |
+| ![Licowa 星空山脊原图](examples/source/licowa-milky-way-mountain.jpg) | ![Licowa 星空山脊成品](examples/output/licowa-milky-way-paper-poem.png) |
+| ![Licowa 红色山谷公路原图](examples/source/licowa-red-valley-road.jpg) | ![Licowa 红色山谷公路成品](examples/output/licowa-red-valley-paper-poem.png) |
+| ![Licowa 盛夏海面原图](examples/source/licowa-summer-sea.jpg) | ![Licowa 盛夏海面成品](examples/output/licowa-summer-sea-paper-poem.png) |
+| ![Licowa 霓虹城市夜景原图](examples/source/licowa-neon-city.jpg) | ![Licowa 霓虹城市夜景成品](examples/output/licowa-neon-city-paper-poem.png) |
+| ![Licowa 暮色森林原图](examples/source/licowa-twilight-forest.jpg) | ![Licowa 暮色森林成品](examples/output/licowa-twilight-forest-light-paper-realm.png) |
+| ![Licowa 海边日落原图](examples/source/licowa-sunset-beach.jpg) | ![Licowa 海边日落成品](examples/output/licowa-sunset-beach-light-paper-realm.png) |
+| ![Licowa 雪林原图](examples/source/licowa-snowy-forest.jpg) | ![Licowa 雪林成品](examples/output/licowa-snowy-forest-light-paper-realm.png) |
+| ![Licowa 月下瀑布原图](examples/source/licowa-moonlit-waterfall.jpg) | ![Licowa 月下瀑布成品](examples/output/licowa-moonlit-waterfall-light-paper-realm.png) |
 
 ### 它能做什么
 
@@ -30,6 +52,17 @@
 > `Create exactly one 3:4 portrait editorial poster. Divide the canvas into two equal 50% sections: faithful photography above; a small handmade paper illustration of the same scene below. No visible text in any language.`
 
 查看并复制 [完整提示词](light-paper-realm/references/prompt-recipes.md)。最初参考提示词亦完整保留在 [原始提示词记录](docs/original-prompt.md)。
+
+### 可调整参数
+
+| 参数 | 推荐起点 | 调整影响 |
+| --- | --- | --- |
+| 画布比例 | 3:4 竖版 | 改为其他比例时，仍保持上下区域相等。 |
+| 上下分屏 | 50:50 | 可在创作探索时微调，但标准案例始终使用 50:50。 |
+| 纸艺主体大小 | 下半区域的 10–20% | 更小更克制；更大则叙事更直观。 |
+| 留白 | 下半区域保留大面积空白 | 留白减少会更像插画，留白增加会更像编辑艺术书。 |
+| 色彩 | 从原图提取 3–4 个主色 | 色彩越少，纸艺感与整体一致性越强。 |
+| 参考图强度 | 高 | 有助上半部分保真；过低可能重构主体或场景。 |
 
 ### 在 Codex 中使用
 
@@ -67,21 +100,6 @@ Skill 会优先保真地处理源图；若结果出现模型新生成的文字�
 
 它不适合需要精确文字排版、品牌 Logo、可编辑矢量图，或必须逐像素还原原图的任务。它的目标是保真摄影与纸艺提炼之间的视觉呼应。
 </details>
-
-## 案例预览
-
-八组 Licowa 壁纸案例集中展示如下：左侧为原壁纸，右侧为光影纸境生成结果。
-
-| 原壁纸 | 纸艺编辑海报 |
-| --- | --- |
-| ![Licowa 星空山脊原图](examples/source/licowa-milky-way-mountain.jpg) | ![Licowa 星空山脊成品](examples/output/licowa-milky-way-paper-poem.png) |
-| ![Licowa 红色山谷公路原图](examples/source/licowa-red-valley-road.jpg) | ![Licowa 红色山谷公路成品](examples/output/licowa-red-valley-paper-poem.png) |
-| ![Licowa 盛夏海面原图](examples/source/licowa-summer-sea.jpg) | ![Licowa 盛夏海面成品](examples/output/licowa-summer-sea-paper-poem.png) |
-| ![Licowa 霓虹城市夜景原图](examples/source/licowa-neon-city.jpg) | ![Licowa 霓虹城市夜景成品](examples/output/licowa-neon-city-paper-poem.png) |
-| ![Licowa 暮色森林原图](examples/source/licowa-twilight-forest.jpg) | ![Licowa 暮色森林成品](examples/output/licowa-twilight-forest-light-paper-realm.png) |
-| ![Licowa 海边日落原图](examples/source/licowa-sunset-beach.jpg) | ![Licowa 海边日落成品](examples/output/licowa-sunset-beach-light-paper-realm.png) |
-| ![Licowa 雪林原图](examples/source/licowa-snowy-forest.jpg) | ![Licowa 雪林成品](examples/output/licowa-snowy-forest-light-paper-realm.png) |
-| ![Licowa 月下瀑布原图](examples/source/licowa-moonlit-waterfall.jpg) | ![Licowa 月下瀑布成品](examples/output/licowa-moonlit-waterfall-light-paper-realm.png) |
 
 ## 参与贡献
 

@@ -2,6 +2,13 @@
 
 > [中文](README.md) ｜ [English](README.en.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=flat-square)](LICENSE)
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-10A37F?style=flat-square)
+![Licowa examples](https://img.shields.io/badge/Licowa-8%20examples-4F8EF7?style=flat-square)
+![Language](https://img.shields.io/badge/Language-中文%20%7C%20English-7C3AED?style=flat-square)
+
+[Licowa](#recommended-wallpaper-source-licowa) · [Examples](#example-gallery) · [Usage](#use-in-codex) · [Parameters](#adjustable-parameters) · [FAQ](#faq-and-limits) · [Contributing](#contributing) · [Sources](#licowa-sources-and-usage-notes)
+
 ## Recommended wallpaper source: Licowa
 
 [<img src="assets/licowa-logo.png" alt="LiCoWa" width="42" align="absmiddle"> **LiCoWa**](https://licowa.com/)
@@ -15,6 +22,21 @@ The repository's eight examples are selected from Licowa's wallpaper service sol
 **Light Paper Realm** turns one photograph into a text-free 3:4 editorial cover: faithful photography above, and a small handmade paper visual poem below.
 
 ![Licowa Milky Way example](examples/output/licowa-milky-way-paper-poem.png)
+
+## Example gallery
+
+All eight Licowa wallpaper examples are collected here. Each row pairs the original wallpaper with its generated Light Paper Realm result.
+
+| Source wallpaper | Paper editorial poster |
+| --- | --- |
+| ![Milky Way mountain source](examples/source/licowa-milky-way-mountain.jpg) | ![Milky Way mountain result](examples/output/licowa-milky-way-paper-poem.png) |
+| ![Red valley road source](examples/source/licowa-red-valley-road.jpg) | ![Red valley road result](examples/output/licowa-red-valley-paper-poem.png) |
+| ![Summer sea source](examples/source/licowa-summer-sea.jpg) | ![Summer sea result](examples/output/licowa-summer-sea-paper-poem.png) |
+| ![Neon city source](examples/source/licowa-neon-city.jpg) | ![Neon city result](examples/output/licowa-neon-city-paper-poem.png) |
+| ![Twilight forest source](examples/source/licowa-twilight-forest.jpg) | ![Twilight forest result](examples/output/licowa-twilight-forest-light-paper-realm.png) |
+| ![Sunset beach source](examples/source/licowa-sunset-beach.jpg) | ![Sunset beach result](examples/output/licowa-sunset-beach-light-paper-realm.png) |
+| ![Snowy forest source](examples/source/licowa-snowy-forest.jpg) | ![Snowy forest result](examples/output/licowa-snowy-forest-light-paper-realm.png) |
+| ![Moonlit waterfall source](examples/source/licowa-moonlit-waterfall.jpg) | ![Moonlit waterfall result](examples/output/licowa-moonlit-waterfall-light-paper-realm.png) |
 
 ## What it creates
 
@@ -30,6 +52,17 @@ The complete prompt is public: native-editor, cross-platform positive/negative, 
 > `Create exactly one 3:4 portrait editorial poster. Divide the canvas into two equal 50% sections: faithful photography above; a small handmade paper illustration of the same scene below. No visible text in any language.`
 
 View or copy the [full prompt recipes](light-paper-realm/references/prompt-recipes.md). The original source prompt is preserved separately in [original-prompt.md](docs/original-prompt.md).
+
+### Adjustable parameters
+
+| Parameter | Recommended start | Effect of adjustment |
+| --- | --- | --- |
+| Canvas ratio | 3:4 portrait | Other ratios work when the two regions remain equal. |
+| Panel split | 50:50 | You can explore alternatives, but all standard examples use 50:50. |
+| Paper motif size | 10–20% of the lower panel | Smaller is quieter; larger is more narrative. |
+| Negative space | Keep most of the lower panel open | Less space reads as illustration; more feels like an editorial art book. |
+| Palette | 3–4 colors sampled from the photo | Fewer colors improve paper character and visual continuity. |
+| Reference strength | High | Better preserves the upper image; low strength may reimagine the scene. |
 
 ## Use in Codex
 
@@ -67,21 +100,6 @@ Use a high reference-strength setting and request only peripheral background ext
 
 It is not intended for precise text layout, brand-logo work, editable vector art, or pixel-perfect reconstruction. Its purpose is a visual echo between faithful photography and a paper-art interpretation.
 </details>
-
-## Example gallery
-
-All eight Licowa wallpaper examples are collected here. Each row pairs the original wallpaper with its generated Light Paper Realm result.
-
-| Source wallpaper | Paper editorial poster |
-| --- | --- |
-| ![Milky Way mountain source](examples/source/licowa-milky-way-mountain.jpg) | ![Milky Way mountain result](examples/output/licowa-milky-way-paper-poem.png) |
-| ![Red valley road source](examples/source/licowa-red-valley-road.jpg) | ![Red valley road result](examples/output/licowa-red-valley-paper-poem.png) |
-| ![Summer sea source](examples/source/licowa-summer-sea.jpg) | ![Summer sea result](examples/output/licowa-summer-sea-paper-poem.png) |
-| ![Neon city source](examples/source/licowa-neon-city.jpg) | ![Neon city result](examples/output/licowa-neon-city-paper-poem.png) |
-| ![Twilight forest source](examples/source/licowa-twilight-forest.jpg) | ![Twilight forest result](examples/output/licowa-twilight-forest-light-paper-realm.png) |
-| ![Sunset beach source](examples/source/licowa-sunset-beach.jpg) | ![Sunset beach result](examples/output/licowa-sunset-beach-light-paper-realm.png) |
-| ![Snowy forest source](examples/source/licowa-snowy-forest.jpg) | ![Snowy forest result](examples/output/licowa-snowy-forest-light-paper-realm.png) |
-| ![Moonlit waterfall source](examples/source/licowa-moonlit-waterfall.jpg) | ![Moonlit waterfall result](examples/output/licowa-moonlit-waterfall-light-paper-realm.png) |
 
 ## Contributing
 
