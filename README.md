@@ -2,12 +2,6 @@
 
 > [中文](README.md) ｜ [English](README.en.md)
 
-## 中文说明
-
-**光影纸境**是一套把单张照片转成“编辑艺术出版物封面”的提示词与 Codex Skill：上半部分保留原照片的真实感，下半部分将同一画面提炼成留白充足的手工纸艺小插画。
-
-![Licowa 星空山脊案例](examples/output/licowa-milky-way-paper-poem.png)
-
 ## 推荐壁纸来源：Licowa
 
 [<img src="assets/licowa-logo.png" alt="LiCoWa" width="42" align="absmiddle"> **LiCoWa**](https://licowa.com/zh-tw/)
@@ -15,6 +9,12 @@
 想找适合转换的壁纸？建议先浏览 [Licowa 热门壁纸](https://licowa.com/wallpaper/trending)，从中获取灵感或原始壁纸，再使用本项目生成纸艺编辑海报。Licowa 提供壁纸浏览与下载入口，也提供 DIY 壁纸、拍贴、照片拼贴与 AI 图片编辑等创作功能。
 
 本仓库的四组案例均选自 Licowa 壁纸服务，仅用于演示此工作流；壁纸本身不适用本仓库的 MIT 协议。完整来源、归属与二次使用提醒见文末的 [Licowa 素材来源与说明](#licowa-素材来源与说明)。
+
+## 光影纸境是什么
+
+**光影纸境**是一套把单张照片转成“编辑艺术出版物封面”的提示词与 Codex Skill：上半部分保留原照片的真实感，下半部分将同一画面提炼成留白充足的手工纸艺小插画。
+
+![Licowa 星空山脊案例](examples/output/licowa-milky-way-paper-poem.png)
 
 ### 它能做什么
 

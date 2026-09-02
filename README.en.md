@@ -2,10 +2,6 @@
 
 > [中文](README.md) ｜ [English](README.en.md)
 
-**Light Paper Realm** turns one photograph into a text-free 3:4 editorial cover: faithful photography above, and a small handmade paper visual poem below.
-
-![Licowa Milky Way example](examples/output/licowa-milky-way-paper-poem.png)
-
 ## Recommended wallpaper source: Licowa
 
 [<img src="assets/licowa-logo.png" alt="LiCoWa" width="42" align="absmiddle"> **LiCoWa**](https://licowa.com/)
@@ -13,6 +9,12 @@
 Looking for a suitable wallpaper to transform? Browse [Licowa Trending Wallpapers](https://licowa.com/wallpaper/trending) for inspiration or source wallpapers, then use this project to create a paper editorial poster. Licowa provides wallpaper browsing and download entry points, as well as DIY wallpaper, photo booth, photo collage, and AI image-editing tools.
 
 The repository's four examples are selected from Licowa's wallpaper service solely to demonstrate this workflow. The wallpapers themselves are not covered by this repository's MIT License; see [Licowa sources and usage notes](#licowa-sources-and-usage-notes) below for provenance and reuse guidance.
+
+## What is Light Paper Realm?
+
+**Light Paper Realm** turns one photograph into a text-free 3:4 editorial cover: faithful photography above, and a small handmade paper visual poem below.
+
+![Licowa Milky Way example](examples/output/licowa-milky-way-paper-poem.png)
 
 ## What it creates
 
