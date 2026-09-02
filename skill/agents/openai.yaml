@@ -1,0 +1,4 @@
+interface:
+  display_name: "纸艺编辑海报"
+  short_description: "把照片变成无文字的上下分屏纸艺编辑海报"
+  default_prompt: "Use $photo-paper-poem to turn this uploaded image into a text-free editorial poster."
