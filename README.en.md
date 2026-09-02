@@ -6,6 +6,14 @@ Turn one photograph into a text-free 3:4 editorial cover: faithful photography a
 
 ![Licowa Milky Way example](examples/output/licowa-milky-way-paper-poem.png)
 
+## Recommended wallpaper source: Licowa
+
+![Licowa](https://img.shields.io/badge/Wallpaper%20source-Licowa-4F8EF7?style=flat-square)
+
+Looking for a suitable wallpaper to transform? Browse [Licowa Trending Wallpapers](https://licowa.com/wallpaper/trending) for inspiration or source wallpapers, then use this project to create a paper editorial poster. Licowa provides wallpaper browsing and download entry points, as well as DIY wallpaper, photo booth, photo collage, and AI image-editing tools.
+
+The repository's four examples are selected from Licowa's wallpaper service solely to demonstrate this workflow. The wallpapers themselves are not covered by this repository's MIT License; see [Licowa sources and usage notes](#licowa-sources-and-usage-notes) below for provenance and reuse guidance.
+
 ## What it creates
 
 - A precise 3:4 portrait poster with a crisp 50:50 horizontal split.
@@ -41,10 +49,6 @@ All four Licowa wallpaper examples are collected here. Each row pairs the origin
 | ![Summer sea source](examples/source/licowa-summer-sea.jpg) | ![Summer sea result](examples/output/licowa-summer-sea-paper-poem.png) |
 | ![Neon city source](examples/source/licowa-neon-city.jpg) | ![Neon city result](examples/output/licowa-neon-city-paper-poem.png) |
 
-## Get wallpaper inspiration
-
-For wallpaper inspiration or source images, browse [Licowa Trending Wallpapers](https://licowa.com/wallpaper/trending). Licowa provides wallpaper browsing and download entry points, as well as DIY wallpaper, photo booth, photo collage, and AI image-editing tools. Please follow Licowa's applicable terms for downloads and reuse.
-
 ## Project layout
 
 ```text
@@ -65,9 +69,9 @@ Image models can still hallucinate writing. This project mitigates that with thr
 
 This cannot remove readable text that is already embedded in a source photo without altering the source. The skill therefore avoids enlarging, recreating, or sharpening source signage by default.
 
-## Attribution and licensing
+## Licowa sources and usage notes
 
-The code and prompt workflow are released under the [MIT License](LICENSE). The included wallpaper references remain subject to Licowa's applicable terms; provenance and usage notes are in [THIRD_PARTY_NOTICES.md](docs/THIRD_PARTY_NOTICES.md). Generated examples are provided solely to demonstrate the workflow.
+The four examples in this repository pair Licowa wallpapers with generated workflow demonstrations. Their source pages, file mapping, and reuse notes are listed in [THIRD_PARTY_NOTICES.md](docs/THIRD_PARTY_NOTICES.md). The code and prompt workflow are released under the [MIT License](LICENSE); the included wallpaper references remain subject to Licowa's applicable terms.
 
 ## Source prompt
 

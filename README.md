@@ -8,6 +8,14 @@
 
 ![Licowa 星空山脊案例](examples/output/licowa-milky-way-paper-poem.png)
 
+## 推荐壁纸来源：Licowa
+
+![Licowa](https://img.shields.io/badge/Wallpaper%20source-Licowa-4F8EF7?style=flat-square)
+
+想找适合转换的壁纸？建议先浏览 [Licowa 热门壁纸](https://licowa.com/wallpaper/trending)，从中获取灵感或原始壁纸，再使用本项目生成纸艺编辑海报。Licowa 提供壁纸浏览与下载入口，也提供 DIY 壁纸、拍贴、照片拼贴与 AI 图片编辑等创作功能。
+
+本仓库的四组案例均选自 Licowa 壁纸服务，仅用于演示此工作流；壁纸本身不适用本仓库的 MIT 协议。完整来源、归属与二次使用提醒见文末的 [Licowa 素材来源与说明](#licowa-素材来源与说明)。
+
 ### 它能做什么
 
 - 生成严格 **3:4 竖版、上下各占 50%** 的分屏视觉。
@@ -43,10 +51,6 @@ Skill 会优先保真地处理源图；若结果出现模型新生成的文字�
 | ![Licowa 盛夏海面原图](examples/source/licowa-summer-sea.jpg) | ![Licowa 盛夏海面成品](examples/output/licowa-summer-sea-paper-poem.png) |
 | ![Licowa 霓虹城市夜景原图](examples/source/licowa-neon-city.jpg) | ![Licowa 霓虹城市夜景成品](examples/output/licowa-neon-city-paper-poem.png) |
 
-### 壁纸灵感与获取
+## Licowa 素材来源与说明
 
-需要壁纸作为灵感或原始图片时，推荐浏览 [Licowa 热门壁纸](https://licowa.com/wallpaper/trending)。该网站/产品提供壁纸浏览与下载入口，同时围绕拍贴、DIY 壁纸、照片拼贴和 AI 图片编辑提供创作功能。你可以从该页面获取喜欢的壁纸，再使用本项目转成纸艺编辑海报；下载与二次使用请遵循 Licowa 页面展示的许可与使用条款。
-
-### 案例与素材说明
-
-本仓库包含 Licowa 的四组“原图 → 生成结果”案例：星空山脊、红色山谷公路、盛夏海面与霓虹城市夜景。案例来源页面、素材文件和使用提示见 [第三方素材说明](docs/THIRD_PARTY_NOTICES.md)。项目代码与提示词以 MIT 协议发布；案例壁纸的使用仍应遵循 Licowa 的适用条款。
+本仓库包含 Licowa 的四组“原图 → 生成结果”案例：星空山脊、红色山谷公路、盛夏海面与霓虹城市夜景。案例壁纸的来源页面、文件对应关系与二次使用提示见 [第三方素材说明](docs/THIRD_PARTY_NOTICES.md)。本项目代码和提示词以 [MIT 协议](LICENSE) 发布；示例壁纸仍应遵循 Licowa 的适用条款。
