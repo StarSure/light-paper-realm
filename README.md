@@ -1,16 +1,16 @@
-# Photo Paper Poem
+# 光影纸境
 
 > [中文](README.md) ｜ [English](README.en.md)
 
 ## 中文说明
 
-**Photo Paper Poem（照片纸艺诗）** 是一套把单张照片转成“编辑艺术出版物封面”的提示词与 Codex Skill：上半部分保留原照片的真实感，下半部分将同一画面提炼成留白充足的手工纸艺小插画。
+**光影纸境**是一套把单张照片转成“编辑艺术出版物封面”的提示词与 Codex Skill：上半部分保留原照片的真实感，下半部分将同一画面提炼成留白充足的手工纸艺小插画。
 
 ![Licowa 星空山脊案例](examples/output/licowa-milky-way-paper-poem.png)
 
 ## 推荐壁纸来源：Licowa
 
-![Licowa](https://img.shields.io/badge/Wallpaper%20source-Licowa-4F8EF7?style=flat-square)
+[<img src="assets/licowa-logo.png" alt="LiCoWa" width="42" align="absmiddle"> **LiCoWa**](https://licowa.com/zh-tw/)
 
 想找适合转换的壁纸？建议先浏览 [Licowa 热门壁纸](https://licowa.com/wallpaper/trending)，从中获取灵感或原始壁纸，再使用本项目生成纸艺编辑海报。Licowa 提供壁纸浏览与下载入口，也提供 DIY 壁纸、拍贴、照片拼贴与 AI 图片编辑等创作功能。
 
@@ -25,24 +25,24 @@
 
 ### 在 Codex 中使用
 
-1. 将 `skill/photo-paper-poem` 复制到 Codex 的技能目录（通常为 `~/.codex/skills/`）。
+1. 将 `light-paper-realm` 复制到 Codex 的技能目录（通常为 `~/.codex/skills/`）。
 2. 上传图片后输入：
 
    ```text
-   使用 $photo-paper-poem 生成
+   使用 $light-paper-realm 生成
    ```
 
 Skill 会优先保真地处理源图；若结果出现模型新生成的文字，会执行一次只去除文字的定向修正。
 
 ### 在其他出图平台使用
 
-打开 [跨平台提示词](skill/references/prompt-recipes.md#b-cross-platform-recipe)，将 **Positive prompt** 和 **Negative prompt** 分别粘贴到平台对应字段，将 `<SCENE>` 换成图片的客观描述，再上传原图作为参考图。
+打开 [跨平台提示词](light-paper-realm/references/prompt-recipes.md#b-cross-platform-recipe)，将 **Positive prompt** 和 **Negative prompt** 分别粘贴到平台对应字段，将 `<SCENE>` 换成图片的客观描述，再上传原图作为参考图。
 
-如平台提供参考图强度/相似度，优先选择较高档位。生成时仍出现文字，可使用仓库内的 [一次性去字修正提示词](skill/references/prompt-recipes.md#c-text-removal-correction-prompt)。
+如平台提供参考图强度/相似度，优先选择较高档位。生成时仍出现文字，可使用仓库内的 [一次性去字修正提示词](light-paper-realm/references/prompt-recipes.md#c-text-removal-correction-prompt)。
 
 ## 案例预览
 
-四组 Licowa 壁纸案例集中展示如下：左侧为原壁纸，右侧为 Photo Paper Poem 生成结果。
+四组 Licowa 壁纸案例集中展示如下：左侧为原壁纸，右侧为光影纸境生成结果。
 
 | 原壁纸 | 纸艺编辑海报 |
 | --- | --- |

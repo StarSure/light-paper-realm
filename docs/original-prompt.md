@@ -2,7 +2,7 @@
 
 Source: [main prompt](https://x.com/king1818888/status/2094566588087509050) and [art-direction / avoid list](https://x.com/king1818888/status/2094566592709636528) by Kimberly on X.
 
-The text below is preserved as the original prompt. The installable `skill/` version adds cross-platform routing, source-fidelity checks, and a strict no-text repair pass.
+The text below is preserved as the original prompt. The installable `light-paper-realm/` version adds cross-platform routing, source-fidelity checks, and a strict no-text repair pass.
 
 ```text
 Create one independent high-end editorial poster for each uploaded photo. Do not combine multiple photos into a collage. Each photo must be processed and output as a separate poster.
@@ -36,4 +36,4 @@ FINAL ART DIRECTION
 The top half should feel like a beautiful, authentic editorial photograph. The bottom half should feel like a small, handmade visual poem derived from that photograph. The two halves should clearly belong to the same visual story, while maintaining a strong contrast between photographic realism above and minimal handmade illustration below. Prioritize recognition, restraint, negative space, material texture, subtle imperfection, editorial sophistication, and artistic storytelling over decorative complexity.
 ```
 
-> Note: the original prompt permits sparse typography. This project intentionally overrides that option in `skill/` because the intended workflow is text-free and must prevent unwanted multilingual text generation.
+> Note: the original prompt permits sparse typography. This project intentionally overrides that option in `light-paper-realm/` because the intended workflow is text-free and must prevent unwanted multilingual text generation.

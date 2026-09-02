@@ -1,9 +1,9 @@
 ---
-name: photo-paper-poem
-description: "Create text-free 3:4 split-panel editorial posters from photos: faithful photography above and premium handmade paper illustration below. Use when a user requests this paper-art cover style."
+name: light-paper-realm
+description: "Create text-free 3:4 split-panel editorial posters from photos: faithful photography above and premium handmade paper illustration below. Use when a user requests the 光影纸境 paper-art cover style."
 ---
 
-# Photo Paper Editorial
+# 光影纸境 · Light Paper Realm
 
 Transform each uploaded image into one 3:4 vertical art-publication cover. The visual system is fixed: a faithful editorial photograph in the upper 50% and a minimal paper illustration of the same story in the lower 50%.
 
@@ -34,4 +34,4 @@ Save variants non-destructively. Deliver only an image that meets the visual sys
 
 ## Invocation
 
-Users can simply upload an image and say: `Use $photo-paper-poem to generate.`
+Users can simply upload an image and say: `Use $light-paper-realm to generate.`

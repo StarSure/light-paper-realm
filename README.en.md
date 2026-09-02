@@ -1,14 +1,14 @@
-# Photo Paper Poem
+# Light Paper Realm
 
 > [中文](README.md) ｜ [English](README.en.md)
 
-Turn one photograph into a text-free 3:4 editorial cover: faithful photography above, and a small handmade paper visual poem below.
+**Light Paper Realm** turns one photograph into a text-free 3:4 editorial cover: faithful photography above, and a small handmade paper visual poem below.
 
 ![Licowa Milky Way example](examples/output/licowa-milky-way-paper-poem.png)
 
 ## Recommended wallpaper source: Licowa
 
-![Licowa](https://img.shields.io/badge/Wallpaper%20source-Licowa-4F8EF7?style=flat-square)
+[<img src="assets/licowa-logo.png" alt="LiCoWa" width="42" align="absmiddle"> **LiCoWa**](https://licowa.com/)
 
 Looking for a suitable wallpaper to transform? Browse [Licowa Trending Wallpapers](https://licowa.com/wallpaper/trending) for inspiration or source wallpapers, then use this project to create a paper editorial poster. Licowa provides wallpaper browsing and download entry points, as well as DIY wallpaper, photo booth, photo collage, and AI image-editing tools.
 
@@ -23,24 +23,24 @@ The repository's four examples are selected from Licowa's wallpaper service sole
 
 ## Use in Codex
 
-1. Copy the `skill/photo-paper-poem` directory into your Codex skills directory (usually `~/.codex/skills/`).
+1. Copy the `light-paper-realm` directory into your Codex skills directory (usually `~/.codex/skills/`).
 2. Start a new task, upload a photo, and write:
 
    ```text
-   Use $photo-paper-poem to generate.
+   Use $light-paper-realm to generate.
    ```
 
 The skill chooses the built-in image editor when available. It inspects the result and performs one focused correction pass if newly generated text appears.
 
 ## Use on another image platform
 
-Open [the cross-platform prompt recipe](skill/references/prompt-recipes.md#b-cross-platform-recipe). Put the **Positive prompt** and **Negative prompt** into their matching fields, replace `<SCENE>` with a short factual description of your image, and attach the original photo as the reference image.
+Open [the cross-platform prompt recipe](light-paper-realm/references/prompt-recipes.md#b-cross-platform-recipe). Put the **Positive prompt** and **Negative prompt** into their matching fields, replace `<SCENE>` with a short factual description of your image, and attach the original photo as the reference image.
 
-If the platform has an image/reference strength control, use a strong setting: the subject and composition should be preserved rather than reimagined. If a result still invents writing, use the one-time [text-removal correction prompt](skill/references/prompt-recipes.md#c-text-removal-correction-prompt).
+If the platform has an image/reference strength control, use a strong setting: the subject and composition should be preserved rather than reimagined. If a result still invents writing, use the one-time [text-removal correction prompt](light-paper-realm/references/prompt-recipes.md#c-text-removal-correction-prompt).
 
 ## Example gallery
 
-All four Licowa wallpaper examples are collected here. Each row pairs the original wallpaper with its generated Photo Paper Poem result.
+All four Licowa wallpaper examples are collected here. Each row pairs the original wallpaper with its generated Light Paper Realm result.
 
 | Source wallpaper | Paper editorial poster |
 | --- | --- |
@@ -52,7 +52,7 @@ All four Licowa wallpaper examples are collected here. Each row pairs the origin
 ## Project layout
 
 ```text
-skill/                  # Installable Codex Skill
+light-paper-realm/      # Installable Codex Skill
 docs/original-prompt.md # Original prompt preserved from the source X thread
 examples/source/        # Attributed reference photos
 examples/output/        # Generated examples
@@ -75,4 +75,4 @@ The four examples in this repository pair Licowa wallpapers with generated workf
 
 ## Source prompt
 
-The original prompt came from [this X post](https://x.com/king1818888/status/2094566588087509050) and its [companion restriction post](https://x.com/king1818888/status/2094566592709636528). It is preserved in [docs/original-prompt.md](docs/original-prompt.md), with the reusable implementation refined in `skill/`.
+The original prompt came from [this X post](https://x.com/king1818888/status/2094566588087509050) and its [companion restriction post](https://x.com/king1818888/status/2094566592709636528). It is preserved in [docs/original-prompt.md](docs/original-prompt.md), with the reusable implementation refined in `light-paper-realm/`.
