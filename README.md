@@ -38,7 +38,7 @@ Skill 会优先保真地处理源图；若结果出现模型新生成的文字�
 
 ### 案例与素材说明
 
-本仓库包含 Licowa 的星空山脊与红色山谷公路两组“原图 → 生成结果”案例。案例来源页面、素材文件和使用提示见 [第三方素材说明](docs/THIRD_PARTY_NOTICES.md)。项目代码与提示词以 MIT 协议发布；案例壁纸的使用仍应遵循 Licowa 的适用条款。
+本仓库包含 Licowa 的四组“原图 → 生成结果”案例：星空山脊、红色山谷公路、盛夏海面与霓虹城市夜景。案例来源页面、素材文件和使用提示见 [第三方素材说明](docs/THIRD_PARTY_NOTICES.md)。项目代码与提示词以 MIT 协议发布；案例壁纸的使用仍应遵循 Licowa 的适用条款。
 
 ---
 
@@ -88,6 +88,8 @@ docs/THIRD_PARTY_NOTICES.md
 | --- | --- |
 | ![Milky Way mountain source](examples/source/licowa-milky-way-mountain.jpg) | ![Milky Way mountain result](examples/output/licowa-milky-way-paper-poem.png) |
 | ![Red valley road source](examples/source/licowa-red-valley-road.jpg) | ![Red valley road result](examples/output/licowa-red-valley-paper-poem.png) |
+| ![Summer sea source](examples/source/licowa-summer-sea.jpg) | ![Summer sea result](examples/output/licowa-summer-sea-paper-poem.png) |
+| ![Neon city source](examples/source/licowa-neon-city.jpg) | ![Neon city result](examples/output/licowa-neon-city-paper-poem.png) |
 
 ### Text-free behavior
 
