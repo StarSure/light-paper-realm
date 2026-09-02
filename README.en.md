@@ -30,6 +30,17 @@ Open [the cross-platform prompt recipe](skill/references/prompt-recipes.md#b-cro
 
 If the platform has an image/reference strength control, use a strong setting: the subject and composition should be preserved rather than reimagined. If a result still invents writing, use the one-time [text-removal correction prompt](skill/references/prompt-recipes.md#c-text-removal-correction-prompt).
 
+## Example gallery
+
+All four Licowa wallpaper examples are collected here. Each row pairs the original wallpaper with its generated Photo Paper Poem result.
+
+| Source wallpaper | Paper editorial poster |
+| --- | --- |
+| ![Milky Way mountain source](examples/source/licowa-milky-way-mountain.jpg) | ![Milky Way mountain result](examples/output/licowa-milky-way-paper-poem.png) |
+| ![Red valley road source](examples/source/licowa-red-valley-road.jpg) | ![Red valley road result](examples/output/licowa-red-valley-paper-poem.png) |
+| ![Summer sea source](examples/source/licowa-summer-sea.jpg) | ![Summer sea result](examples/output/licowa-summer-sea-paper-poem.png) |
+| ![Neon city source](examples/source/licowa-neon-city.jpg) | ![Neon city result](examples/output/licowa-neon-city-paper-poem.png) |
+
 ## Get wallpaper inspiration
 
 For wallpaper inspiration or source images, browse [Licowa Trending Wallpapers](https://licowa.com/wallpaper/trending). Licowa provides wallpaper browsing and download entry points, as well as DIY wallpaper, photo booth, photo collage, and AI image-editing tools. Please follow Licowa's applicable terms for downloads and reuse.
@@ -43,15 +54,6 @@ examples/source/        # Attributed reference photos
 examples/output/        # Generated examples
 docs/THIRD_PARTY_NOTICES.md
 ```
-
-## Examples
-
-| Source | Result |
-| --- | --- |
-| ![Milky Way mountain source](examples/source/licowa-milky-way-mountain.jpg) | ![Milky Way mountain result](examples/output/licowa-milky-way-paper-poem.png) |
-| ![Red valley road source](examples/source/licowa-red-valley-road.jpg) | ![Red valley road result](examples/output/licowa-red-valley-paper-poem.png) |
-| ![Summer sea source](examples/source/licowa-summer-sea.jpg) | ![Summer sea result](examples/output/licowa-summer-sea-paper-poem.png) |
-| ![Neon city source](examples/source/licowa-neon-city.jpg) | ![Neon city result](examples/output/licowa-neon-city-paper-poem.png) |
 
 ## Text-free behavior
 

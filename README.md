@@ -32,6 +32,17 @@ Skill 会优先保真地处理源图；若结果出现模型新生成的文字�
 
 如平台提供参考图强度/相似度，优先选择较高档位。生成时仍出现文字，可使用仓库内的 [一次性去字修正提示词](skill/references/prompt-recipes.md#c-text-removal-correction-prompt)。
 
+## 案例预览
+
+四组 Licowa 壁纸案例集中展示如下：左侧为原壁纸，右侧为 Photo Paper Poem 生成结果。
+
+| 原壁纸 | 纸艺编辑海报 |
+| --- | --- |
+| ![Licowa 星空山脊原图](examples/source/licowa-milky-way-mountain.jpg) | ![Licowa 星空山脊成品](examples/output/licowa-milky-way-paper-poem.png) |
+| ![Licowa 红色山谷公路原图](examples/source/licowa-red-valley-road.jpg) | ![Licowa 红色山谷公路成品](examples/output/licowa-red-valley-paper-poem.png) |
+| ![Licowa 盛夏海面原图](examples/source/licowa-summer-sea.jpg) | ![Licowa 盛夏海面成品](examples/output/licowa-summer-sea-paper-poem.png) |
+| ![Licowa 霓虹城市夜景原图](examples/source/licowa-neon-city.jpg) | ![Licowa 霓虹城市夜景成品](examples/output/licowa-neon-city-paper-poem.png) |
+
 ### 壁纸灵感与获取
 
 需要壁纸作为灵感或原始图片时，推荐浏览 [Licowa 热门壁纸](https://licowa.com/wallpaper/trending)。该网站/产品提供壁纸浏览与下载入口，同时围绕拍贴、DIY 壁纸、照片拼贴和 AI 图片编辑提供创作功能。你可以从该页面获取喜欢的壁纸，再使用本项目转成纸艺编辑海报；下载与二次使用请遵循 Licowa 页面展示的许可与使用条款。
